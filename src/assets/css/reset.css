@@ -1,0 +1,13 @@
+html, body, #app {
+  height: 100%;
+}
+#components-layout-demo-top-side-2 {
+  height: 100%;
+}
+.ant-layout-content {
+	flex: none;
+}
+.ant-menu-item-group-title {
+  display: flex;
+  justify-content: space-between;
+}

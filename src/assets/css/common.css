@@ -1,0 +1,294 @@
+/** webkit滚动条样式 **/
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+
+/* 滚动槽 */
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 6px #ccc;
+  border-radius: 10px;
+}
+
+
+/* 滚动条滑块 */
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #ccc;
+  -webkit-box-shadow: inset 6px #ccc;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #ccc;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.width200 {
+  width: 200px !important;
+}
+
+.width368 {
+  width: 368px !important;
+}
+
+.width120 {
+  width: 120px !important;
+}
+
+.width70 {
+  width: 70px !important;
+}
+
+.height204 {
+  height: 204px;
+}
+
+.padding0 {
+  padding: 0;
+}
+
+.paddingT10 {
+  padding-top: 10px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.paddingL10 {
+  padding-left: 10px;
+}
+
+.paddingB108 {
+  padding-bottom: 108px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.marginR5 {
+  margin-right: 5px;
+}
+
+.margin0 {
+  margin: 0;
+}
+
+.marginTB15 {
+  margin: 15px 0 !important;
+}
+
+.marginT7 {
+  margin-top: 7px;
+}
+
+.marginT10 {
+  margin-top: 10px !important;
+}
+
+.marginT40 {
+  margin-top: 40px;
+}
+
+.marginT1vh {
+  margin-top: 1vh;
+}
+
+.marginT15 {
+  margin-top: 15px;
+}
+
+.marginT20 {
+  margin-top: 20px !important;
+}
+
+.marginT35 {
+  margin-top: 35px;
+}
+
+.marginR8 {
+  margin-right: 8px;
+}
+
+.marginR10 {
+  margin-right: 10px;
+}
+
+.marginR20 {
+  margin-right: 20px;
+}
+
+.marginTB10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.marginB10 {
+  margin-bottom: 10px;
+}
+
+.marginB3vh {
+  margin-bottom: 2.5vh;
+}
+
+.marginTB1vh {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.pull-right {
+  float: right;
+}
+
+.fontSize20 {
+  font-size: 1.3rem;
+}
+
+.fontSize18 {
+  font-size: 18px;
+}
+
+.fontSize200 {
+  font-size: 13rem;
+}
+
+.fontSize14 {
+  font-size: 0.8rem;
+}
+
+.fontSize12 {
+  font-size: 0.66rem;
+}
+
+.backgroundBlack {
+  background: #000;
+}
+
+.height100 {
+  height: 5100px;
+}
+
+.paddingPR7 {
+  padding-right: 7%
+}
+
+.paddingL70 {
+  padding-left: 70px;
+}
+
+.colorfff {
+  color: #fff;
+}
+
+.color333 {
+  color: #333;
+}
+
+.color56AAFF {
+  color: #56AAFF;
+}
+
+.color07D690 {
+  color: #07D690;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+
+.overflowAuto {
+  overflow: auto;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.height8vh {
+  height: 8vh;
+}
+
+.height10vh {
+  height: 10vh;
+}
+
+.height15vh {
+  height: 15vh;
+}
+
+.height20vh {
+  height: 20vh;
+}
+
+.height25vh {
+  height: 25vh;
+}
+
+.height30vh {
+  height: 30vh;
+}
+
+.height51vh {
+  height: 51vh;
+}
+
+.height48vh {
+  height: 48vh;
+}
+
+.height80vh {
+  height: 80vh;
+}
+
+.height100vh {
+  height: 100vh;
+}
+
+.lineHeight76 {
+  line-height: 76px;
+}
+
+.lineHeight30 {
+  line-height: 30px;
+}
+
+.width100 {
+  width: 100px;
+}
+
+.width400 {
+  width: 400px;
+}
+
+.heightMin230 {
+  min-height: 200px;
+}
+
+.cursorP {
+  cursor: pointer;
+}
+
+.clearBoth {
+  clear: both;
+}
+
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  fill: currentColor;
+  overflow: hidden;
+}
